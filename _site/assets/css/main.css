@@ -1,0 +1,72 @@
+.nav-logo img {
+  width: 100%;
+  height: auto; }
+
+.homepage-header {
+  text-align: center; }
+  .homepage-header h3 {
+    font-family: Yanone;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: -20px;
+    margin-top: -50px;
+    vertical-align: bottom; }
+
+.mission-section {
+  background: #e53b51;
+  border-radius: 5px; }
+
+.how-it-works-section {
+  text-align: center;
+  background: #e53b51; }
+  .how-it-works-section h3 {
+    font-family: Yanone;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: -20px;
+    margin-top: -50px;
+    vertical-align: bottom; }
+  .how-it-works-section div {
+    border-radius: 5px; }
+
+#header-image {
+  display: block;
+  width: 75.8%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 50px;
+  margin-left: 12.1%;
+  margin-bottom: -5.2em;
+  height: 100%; }
+
+#header-phrase {
+  position: absolute;
+  margin-left: 31%;
+  margin-top: 26.5%;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  background-color: rgba(229, 59, 81, 0.8);
+  display: inline-block;
+  border-radius: 1px;
+  font-size: 40px;
+  font-family: Yanone; }
+
+.post-display {
+  margin: 40px auto; }
+  .post-display img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; }
+  .post-display iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; }
+  .post-display h5 {
+    margin: 0; }
+  .post-display li {
+    list-style-type: none;
+    margin-left: 0;
+    font-size: 1.1rem; }
+  .post-display p {
+    margin-right: 5px; }

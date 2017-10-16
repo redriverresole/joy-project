@@ -1,0 +1,16 @@
+name: Continuous Joy Project
+short_description: Love. Serve. Joy.
+description:  We believe that in order to achieve continuous joy one needs to unselfishly create joy for those around them. The Joy Project assists local members of the community through acts of kindness
+permalink: pretty
+relative_permalinks: false
+include: [_data]
+
+sass:
+  sass_dir: assets/css/
+  # style: compressed
+
+plugins:
+  # - jekyll-sitemap
+  # - jekyll-redirect-from
+exclude:
+  - node_modules
