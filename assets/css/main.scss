@@ -6,70 +6,202 @@
 
 // =====================================
 // Contents:
-// 	- Style For All Pages (Nav & Footer)
+//  - Fonts
+// 	- Style For NavBar
+//  - Style For Footer
 // 	- Style For Home Page
 // 	- Style For Posts Display
 //	- Style For Within Actual Posts
 // =====================================
 
 
+/* Custom Font-Styles */
+@font-face { font-family: Yanone; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Regular.otf'); }
+@font-face { font-family: Yanone; font-weight: bold; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Bold.otf'); }
+@font-face { font-family: Yanone-Light; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Light.otf'); }
+@font-face { font-family: Yanone-Thin; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Thin.otf'); }
+@font-face { font-family: Sketch; src: url('css/font/SketchSerif.otf'); }
+
+
 // =====================================
-// Style For All Pages (NavBar & Footer)
+// Style For NavBar
 // =====================================
 
-.nav-logo {
+nav.primary {
+  clear: both;
+  overflow: hidden;
+  margin: 0 0 1.5em;
+  padding: 0px;
+  position: fixed;
+  top:0px;
+  left:0px;
+  width: 100%;
+  z-index: 99;
+  max-height: 8em;
+  background: #333333;
   img {
-    width: 100%;
+    width: 98px;
     height: auto;
   }
+  h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-top: -85px;
+    margin-left: 120px;
+    position: fixed;
+    font-family: Yanone;
+  }
+}
+
+nav.primary ul {
+  list-style-type: none;
+  float: right;
+  padding: 2.7em 0 0 0;
+  margin: 0;
+  font-size: 1.7em;
+  font-family: Yanone, 'Archivo Narrow', sans-serif;
+  text-transform: uppercase;
+  li {
+    position: relative;
+    display: inline-block;
+    padding: 0px 0 10px 0;
+    margin-left: 10px;
+  }
+  li:hover {
+    border-bottom: 4px solid #e9e9e9;
+  }
+  a {
+    padding:5px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: border .5s ease-out;
+  }
+  a.hover {
+    border-bottom: 4px solid #e9e9e9;
+    cursor: pointer;
+  }
+}
+
+// =====================================
+// Style For Footer
+// =====================================
+
+.footer-main {
+  font-family: Yanone-Light;
+  font-size: 19px;
+  background-color: rgb(229, 59, 81);
+  span {
+    font-size: 20px;
+    color: #fff;
+  }
+  h3 {
+    font-family: Yanone;
+    font-size:1.5em;
+    padding: 14px 14px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.08em;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+#footer-email {
+  font-weight: bold;
+}
+
+.footer-list {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  li {
+    padding: 12px;
+    margin: 0px;
+    background: transparent url('/assets/img/design/border-underline.png') left bottom repeat-x;
+    color: #fff;
+  }
+  li:before {
+    content:"⟩";
+    padding-right: 12px;
+  }
+  li:hover {
+    background: #fff;
+    color: #e53b51;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration:0.5s;
+    -moz-animation-duration:0.5s;
+    -ms-animation-duration:0.5s;
+    -o-animation-duration:0.5s;
+    animation-duration:0.5s;
+  }
+  li:hover a {
+    color: #e53b51;
+  }
+}
+
+// Submit your Nomination Button
+.footer-button {
+  a {
+    color: #ffeef0;
+    border: 1px solid #e53b51;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a:hover {
+    background: #e53b51;
+    color: #fff;
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration:0.5s;
+    -moz-animation-duration:0.5s;
+    -ms-animation-duration:0.5s;
+    -o-animation-duration:0.5s;
+    animation-duration:0.5s;
+  }
+}
+
+// Bottom-most bar with Copyright, Designer, and Developer
+.footer-bottom {
+  background-color: #3b3b3b;
+  padding: 14px 14px;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.08em;
 }
 
 // =====================================
 // Style For Home Page
 // =====================================
 
-.homepage-header {
-  text-align: center;
-  h3 {
-    font-family: Yanone;
-    font-weight: bold;
-    font-size: 4em;
-    margin-bottom: -20px;
-    margin-top: -50px;
-    vertical-align: bottom;
-  }
-}
-
-.mission-section {
-  background: #e53b51;
-  border-radius: 5px;
-}
-
-.how-it-works-section {
-  text-align: center;
-  background: #e53b51;
-  h3 {
-    font-family: Yanone;
-    font-weight: bold;
-    font-size: 4em;
-    margin-bottom: -20px;
-    margin-top: -50px;
-    vertical-align: bottom;
-  }
-  div {
-    border-radius: 5px;
-  }
+.homepage-container {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #header-image {
-	display: block;
-	width: 75.8%;
-	overflow-x: hidden;
-	overflow-y: hidden;
-	padding-top: 50px;
-	margin-left: 12.1%;
-	margin-bottom: -5.2em;
-	height: 100%;
+  display: block;
+  width: 75%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 50px;
+  margin-left: 12.1%;
+  margin-bottom: -5.2em;
 }
 
 #header-phrase {
@@ -86,14 +218,66 @@
   font-family: Yanone;
 }
 
+// Title Heading For Each Section
+.homepage-title {
+  text-align: center;
+  background: transparent url("/assets/img/design/header-line.png") repeat-x 0 60%;
+  margin-bottom: 24px;
+  h3 {
+    background: #fff;
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: Yanone;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: -20px;
+    margin-top: -50px;
+    vertical-align: bottom;
+  }
+}
+
+.mission-section {
+  background: #e53b51;
+  border-radius: 5px;
+  p {
+    color: #fff;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 1.9em;
+    font-family: Yanone, Gill Sans, Verdana;
+  }
+}
+
+.how-it-works-section {
+  background-color: rgba(120,120,120,0.1);
+  padding: 2em;
+  border-radius: 10px;
+  p {
+    color: black;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 1.9em;
+    font-family: Yanone, Gill Sans, Verdana;
+  }
+  strong, a {
+    color: #e53b51;
+  }
+}
+
 // =====================================
 // Style For Posts Display
 // =====================================
 
 .post-display {
   margin: 40px auto;
+  div {
+    height: 30%;
+  }
   img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 5px;
   }

@@ -9,36 +9,26 @@
   </head>
 
   <body>
-    <div class="row">
+    <div class="nav-bar">
+    <nav class="primary">
 
-    <!-- Logo -->
-    <div class="one columns nav-logo">
-        <img src="/assets/img/logos/Joy_Logo_FINAL.jpg" alt="Continuous Joy Logo" style="margin-top: 10px;">
-    </div>
+        <!-- Logo -->
+        <div class="nav-logo">
+            <img src="/assets/img/logos/Joy_Logo_FINAL_No-Words.gif" alt="Continuous Joy Logo" style="margin-top: 10px;">
+        </div>
 
-    <!-- Title -->
-    <div class="two columns">
+        <!-- Title -->
         <h1>Creating Continuous Joy</h1>
-    </div>
 
-    <!-- Empty Space Holder -->
-    <div class="five columns">
-    </div>
+        <!-- Links -->
+        <ul>
+            <li><a href="http://localhost:4000">Home</a></li>
+            <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20%2d%20Donation&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a></li>
+            <!-- <li><a href="http://localhost:4000/Projects">Our Stories</a></li> -->
+            <li><a href="#stories" class="smoothScroll">Our Stories</a></li>
+        </ul>
 
-    <!-- Home -->
-    <div class="one columns">
-        <a href="http://localhost:4000">Home</a>
-    </div>
-
-    <!-- Donate -->
-    <div class="one columns">
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20%2d%20Donation&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank">Donate</a>
-    </div>
-
-    <!-- Our Stories -->
-    <div class="two columns">
-        <a href="http://localhost:4000/Projects">Our Stories</a>
-    </div>
+    </nav>
 </div>
 
     <div class="container">
@@ -51,29 +41,29 @@
 
 </div>
 
-    <footer class="row">
-	<div class="row">
+    <footer class="row ">
+	<div class="row footer-main">
 
 		<!-- First Footer Section -->
 		<div class="three columns">
 			<h3>Contact us</h3>
-			<address class="vcard">
-				<p class="org vcard"><a style="font-family:Yanone;font-weight:normal;text-decoration:underline;font-size:1.65em">Joy Project</a></p>
-				<p class="adr">
-					<span class="street-address"> 348 East Main St.</span><br>
-					<span class="region"> Lexington,</span>
-					<span class="state"> KY</span>
-					<span class="postal-code"> 40507</span>
+			<address>
+				<p><a style="font-family:Yanone;font-weight:normal;text-decoration:underline;font-size:1.65em">Joy Project</a></p>
+				<p>
+					<span> 348 East Main St.</span><br>
+					<span> Lexington,</span>
+					<span> KY</span>
+					<span> 40507</span>
 				</p>
-				<span class="email"><a href="mailto:founders@continuousjoy.org">founders@continuousjoy.org</a></span><br />
+				<span id="footer-email"><a href="mailto:founders@continuousjoy.org">founders@continuousjoy.org</a></span><br />
 			</address>
 		</div>
 
 
 		<!-- Second Footer Section -->
 		<div class="three columns">
-			<h3 style="padding-left:0.5em">Get involved</h3>
-			<ul>
+			<h3>Get involved</h3>
+			<ul class="footer-list">
 				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AEGA6GRPJJWEC&lc=US&item_name=Joy%20Project%20-%20Donation&item_number=1001&currency_code=USD&bn=PP-DonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Donate to the Joy Project</a></li>
 				<li><a href="https://docs.google.com/forms/d/1LayyhkvkaTxxx2CW74PC6KRhwSlX0uYp9ZEHMQvDLAw/viewform" target="_blank">Subscribe to Updates</a></li>
 			</ul>
@@ -83,10 +73,12 @@
 		<!-- Third Footer Section -->
 		<div class="three columns">
 			<h3>Submit Your Joy Project Ideas</h3>
-			<div class="latest-tweets-body">
-				Know someone in need of Joy? Tell us all about it and we can put it in motion for you.
+			<div>
+				<span>
+					Know someone in need of Joy? Tell us all about it and we can put it in motion for you.
+				</span>
 				<div style="padding:12px; text-align:right">
-					<div class="flex-button"><a href="https://docs.google.com/a/g.uky.edu/forms/d/1ui-GKUTxbJduFx_a2xHMt8hN5Ns-70wlT288kiNMuC8/viewform" style="padding:5px; font-weight:bold; border:2px solid white" target="_blank">Submit your Nomination</a>
+					<div class="footer-button"><a href="https://docs.google.com/a/g.uky.edu/forms/d/1ui-GKUTxbJduFx_a2xHMt8hN5Ns-70wlT288kiNMuC8/viewform" style="padding:5px; font-weight:bold; border:2px solid white" target="_blank">Submit your Nomination</a>
 					</div>
 				</div>
 			</div>
@@ -95,7 +87,7 @@
 
 
 	<!-- Very Bottom of Page -->
-	<div class="row">
+	<div class="row footer-bottom">
 		<!-- CopyRight -->
 		<div class="three columns">
 			<p>Copyright ©  2017. Joy Project.  All Rights Reserved.</p>
@@ -108,7 +100,7 @@
 
 		<!-- Developed By -->
 		<div class="three columns">
-			<p>Developed by <a>Brendan Thompson</a></p>
+			<p>Developed by <a href="https://brenthompson2.github.io" style="text-decoration:none; color:#fff;" target="_blank">Brendan Thompson</a></p>
 		</div>
 	</div>
 
