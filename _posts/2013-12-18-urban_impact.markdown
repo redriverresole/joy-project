@@ -7,6 +7,7 @@ permalink: /Urban_Impact
 categories: Stories
 excerpt: The Joy Project sent seven inner city students to a leadership development retreat with Urban Impact
 image: /assets/img/urban_impact.jpg
+sliderImage: /assets/img/sliderImages/urban_impact.jpg
 imageAlt: Urban Impact
 ---
 

@@ -7,6 +7,7 @@ permalink: /Build_The_Hill
 categories: Stories
 excerpt: The Joy Project helped build a playground for children of the Woodhill community in Lexington, KY
 image: /assets/img/build_the_hill.jpg
+sliderImage: /assets/img/sliderImages/build_the_hill.jpg
 imageAlt: Build The Hill
 ---
 

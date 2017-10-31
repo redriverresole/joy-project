@@ -7,6 +7,7 @@ permalink: /The_Delgado
 categories: Stories
 excerpt: A single mother of eight with financial strains and rough living conditions was assisted by numerous volunteers and donations
 image: /assets/img/family.jpg
+sliderImage: /assets/img/sliderImages/family.jpg
 imageAlt: The Delgado Family
 ---
 

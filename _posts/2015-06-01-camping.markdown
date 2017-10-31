@@ -7,6 +7,7 @@ permalink: /Camping
 categories: Stories
 excerpt: A Cancer survivor gets to experience camping again
 image: /assets/img/camping.jpg
+sliderImage: /assets/img/sliderImages/camping.jpg
 imageAlt: Camping
 ---
 

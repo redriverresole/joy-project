@@ -7,6 +7,7 @@ permalink: /Sensory_Gym
 categories: Stories
 excerpt: The Joy Project volunteers built a sensory gym for a family with children with special needs
 image: /assets/img/sensory-gym.jpg
+sliderImage: /assets/img/sliderImages/sensory-gym.jpg
 imageAlt: The Sensory Gym
 ---
 

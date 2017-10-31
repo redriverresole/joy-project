@@ -1,14 +1,14 @@
 <div class="row">
 
   <div class="homepage-title">
-    <h3>Latest Stories:</h3>
+    <h3>Latest Stories</h3>
   </div>
 
   <ul class="post-display">
   	{% for post in site.posts %}
     <li class="row">
         <div class="six columns">
-          <img src="{{ site.url }}{{ post.image }}" alt="{{ post.imageAlt }}">
+          <img src="{{ site.url }}{{ post.sliderImage }}" alt="{{ post.imageAlt }}">
         </div>
 
         <div class="six columns">

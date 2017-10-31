@@ -7,6 +7,7 @@ permalink: /Pete_Painter
 categories: Stories
 excerpt: Friends of the Joy Project have shown Pete tremendous love over the past few years. Pete fought his way out of being homeless and battled alcoholism to be sober since 2013
 image: /assets/img/pete_painter.jpg
+sliderImage: /assets/img/sliderImages/pete_painter.jpg
 imageAlt: Pete Painter
 ---
 
