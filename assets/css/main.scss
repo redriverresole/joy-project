@@ -40,14 +40,15 @@ nav.primary {
   max-height: 8em;
   background: #333333;
   img {
-    width: 98px;
+    margin-left: 20px;
+    width: 100px;
     height: auto;
   }
   h1 {
     font-size: 2.5em;
     color: #fff;
     margin-top: -85px;
-    margin-left: 120px;
+    margin-left: 130px;
     position: fixed;
     font-family: Yanone;
   }
@@ -173,10 +174,8 @@ nav.primary ul {
 
 // Bottom-most bar with Copyright, Designer, and Developer
 .footer-bottom {
-  background-color: #3b3b3b;
+  background-color: #333333;
   padding: 14px 14px;
-  position: relative;
-  display: inline-block;
   font-size: 14px;
   text-decoration: none;
   font-weight: bold;
@@ -193,27 +192,32 @@ nav.primary ul {
   padding-bottom: 30px;
 }
 
+.header-container {
+  text-align: center;
+}
+
 #header-image {
-  display: block;
   width: 75%;
   height: auto;
+  padding: 20px;
   overflow-x: hidden;
   overflow-y: hidden;
-  padding-top: 50px;
-  margin-left: 12.1%;
-  margin-bottom: -5.2em;
+}
+
+#header-phrase-container {
+  // width: 100%;
+  // text-align: center;
 }
 
 #header-phrase {
   position: absolute;
-  margin-left: 31%;
-  margin-top: 26.5%;
+  width:20%;
+  top: calc(50% - 40px); //40px is font size
+  text-align: center;
   padding-left: 7px;
   padding-right: 7px;
   color: white;
   background-color: rgba(229, 59, 81, 0.8);
-  display:inline-block;
-  border-radius: 1px;
   font-size: 40px;
   font-family: Yanone;
 }
@@ -240,6 +244,8 @@ nav.primary ul {
 .mission-section {
   background: #e53b51;
   border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
   p {
     color: #fff;
     padding: 15px;
@@ -254,6 +260,8 @@ nav.primary ul {
   background-color: rgba(120,120,120,0.1);
   padding: 2em;
   border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
   p {
     color: black;
     padding: 15px;
@@ -272,7 +280,9 @@ nav.primary ul {
 // =====================================
 
 .post-display {
-  margin: 40px auto;
+  // margin: 40px auto;
+  margin-left: 5%;
+  margin-right: 5%;
   div {
     height: 30%;
   }
@@ -304,3 +314,22 @@ nav.primary ul {
 // =====================================
 // Style For Within Actual Posts
 // =====================================
+
+.post-title {
+  font-family: Yanone;
+  font-weight: bold;
+  color: #e53b51;
+  font-size: 3.0em;
+  margin-top: 40px;
+}
+
+.post-image {
+  width: 100%;
+  height:auto;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  display: block;
+  font-size: 22px;
+}

@@ -12,7 +12,7 @@
         </div>
 
         <div class="six columns">
-          <h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+          <h5><a href="{{ site.url }}{{ post.permalink }}">{{ post.title }}</a></h5>
 
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
           <p>{{ post.excerpt }}</p>
