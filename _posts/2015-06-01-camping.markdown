@@ -3,7 +3,7 @@ layout: post
 title: A Cancer survivor gets to experience camping again
 author: Bryan Raney
 date:   2015-06-01 7:00:00 -0400
-permalink: /Projects/Camping
+permalink: /Camping
 categories: Stories
 excerpt: A Cancer survivor gets to experience camping again
 image: /assets/img/camping.jpg

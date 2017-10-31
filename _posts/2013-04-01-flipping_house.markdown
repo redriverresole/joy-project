@@ -3,7 +3,7 @@ layout: post
 title: Helping Grow Small Business
 author: Bryan Raney
 date:   2013-04-01 7:00:00 -0400
-permalink: /Projects/Flipping_House
+permalink: /Flipping_House
 categories: Stories
 excerpt: Volunteers showed up to surprise a small real estate business owner and flip a house that was behind schedule.
 image: /assets/img/joe_house_resize.jpg

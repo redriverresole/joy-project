@@ -3,7 +3,7 @@ layout: post
 title: Leadership Retreat Scholarships for Youth
 author: Bryan Raney
 date:   2016-06-01 7:00:00 -0400
-permalink: /Projects/Urban_Impact
+permalink: /Urban_Impact
 categories: Stories
 excerpt: The Joy Project sent seven inner city students to a leadership development retreat with Urban Impact
 image: /assets/img/urban_impact.jpg

@@ -3,7 +3,7 @@ layout: post
 title: Build The Hill
 author: Bryan Raney
 date:   2016-06-01 7:00:00 -0400
-permalink: /Projects/Build_The_Hill
+permalink: /Build_The_Hill
 categories: Stories
 excerpt: The Joy Project helped build a playground for children of the Woodhill community in Lexington, KY
 image: /assets/img/build_the_hill.jpg

@@ -3,7 +3,7 @@ layout: post
 title: Compassion for the Mother of a Murder Victim
 author: Bryan Raney
 date:   2012-01-01 7:00:00 -0400
-permalink: /Projects/Karen
+permalink: /Karen
 categories: Stories
 excerpt: The mother of a murder victim in 2012 was shown love and compassion by the Joy Project
 image: /assets/img/karen.jpg
