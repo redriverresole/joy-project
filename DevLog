@@ -2,7 +2,95 @@ Brendan Thompson
 Continuous Joy Jekyll Site DevLog
 Fall 2017
 
-A log of activities as I turned the Continuous Joy Project website from a Native HTML Website into a Jekyll site
+A log of activities as I turned the Continuous Joy Project website from a Native HTML Website into a Jekyll powered site
+
+==========================================================
+==========================================================
+
+======= 11/15/17 =======
+
+== Summary of Work ==
+	- Implemented Slider
+
+== Still Need To Implement ==
+	- Better Post Info:
+		- real dates
+		- more pictures
+		- more info
+		- Change Camping Title or Excerpt
+	- Fonts from style not working
+
+== Thoughts ==
+	- Currently using Skeleton instead of Bootstrap
+
+== Current Status ==
+	A) Basic Page Format:
+		- _layouts/page.html
+		- _includes/nav.html
+		- _includes/footer.html
+	B) Homepage:
+		- _layouts/homepage.html
+		- _includes/mainHeader.html
+		- _includes/mission.html
+		- _includes/howItWorks.html
+		- _includes/slider.html
+			- _data/sliders.yml
+	C) Posts:
+		- _layouts/post.html
+		1) Karen
+			- made up date 2012-01-01
+		2) The Delgado
+			- made up date 2012-10-01
+		3) Flipping House
+			- made up date 2013-04-01
+		4) Pete Painter
+			- made up date 2013-06-01
+		5) Urban Impact
+		6) Build A Bed
+			- made up date  2014-06-01
+		7) Sensory Gym
+			- Made up date  2015-01-01
+			- Need to Embed Video
+		8) Camping
+			- Needs: Title or Excerpt Change
+			- made up date 2015-06-01
+		9) Build The Hill
+			- made up date  2016-06-01
+	D) Styles:
+		- assets/css/main.scss
+		- images & sliderImages
+		- slider css & js
+
+== Activity Log ==
+
+Implemented the Jekyll ideal Image Slider
+	- https://github.com/jekylltools/jekyll-ideal-image-slider-include
+
+- Added the Ideal Image Slider files to the site
+	- assets/css/slider/ideal-image-slider.css
+	- assets/css/slider/themes/default.css
+	- assets/js/slider/ideal-image-slider.min.js
+	- assets/js/slider/iis-bullet-nav.js
+	- assets/js/slider/iis-captions.js
+
+- Created the Slider
+	- _data/sliders.yml
+	- _includes/slider_styles.html
+		- included in head of _layout/page.html
+		- ensured proper paths to css
+	- _includes/slider_scripts.html
+		- included at end of body of _layout/page.html
+		- ensured proper paths to js
+	- _includes/slider.html
+		- included where slider wanted (homepage layout)
+		- added {{ site.url }} to href to make links in sliders.yml relative
+
+- Included slider in _layouts/homepage.html
+	- Front Matter:
+		image_sliders:
+		  - Post_Slider
+		image_sliders_load_all: true
+	- {% include slider.html selector="Post_Slider" %}
 
 ==========================================================
 ==========================================================
@@ -74,7 +162,6 @@ A log of activities as I turned the Continuous Joy Project website from a Native
 	- Homepage Sections
 		- image used for lines behind titles
 			- assets/img/design/header-line
-	-
 
 ==========================================================
 ==========================================================

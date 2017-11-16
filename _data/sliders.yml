@@ -1,0 +1,42 @@
+# Post Display Slider
+- selector: Post_Slider
+  captions: true
+  bullets: true
+  images:
+    - src: /assets/img/sliderImages/karen.jpg
+      title: The mother of a murder victim in 2012 was shown love and compassion by the Joy Project
+      href: /Karen
+    - src: /assets/img/sliderImages/family.jpg
+      title: A single mother of eight with financial strains and rough living conditions was assisted by numerous volunteers and donations
+      href: /The_Delgado
+    - src: /assets/img/sliderImages/joe_house.jpg
+      title: Volunteers showed up to surprise a small real estate business owner and flip a house that was behind schedule
+      href: /Flipping_House
+    - src: /assets/img/sliderImages/pete_painter.jpg
+      title: Friends of the Joy Project have shown Pete tremendous love over the past few years. Pete fought his way out of being homeless and battled alcoholism to be sober since 2013
+      href: /Pete_Painter
+    - src: /assets/img/sliderImages/urban_impact.jpg
+      title: The Joy Project sent seven inner city students to a leadership development retreat with Urban Impact
+      href: /Urban_Impact
+    - src: /assets/img/sliderImages/build_a_bed.jpg
+      title: The Joy Project recruited over 30 Lexington volunteers to donate their Saturday to build brand new beds and deliver them to children in need around Lexington
+      href: /Build_A_Bed
+    - src: /assets/img/sliderImages/sensory-gym.jpg
+      title: The Joy Project volunteers built a sensory gym for a family with children with special needs
+      href: /Sensory_Gym
+    - src: /assets/img/sliderImages/camping.jpg
+      title: A Cancer survivor gets to experience camping again
+      href: /Camping
+    - src: /assets/img/sliderImages/build_the_hill.jpg
+      title: The Joy Project helped build a playground for children of the Woodhill community in Lexington, KY
+      href: /Build_The_Hill
+  settings:
+    height: "'auto'"
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect: "'fade'"
+    disableNav:
+    keyboardNav:
+    previousNavSelector:

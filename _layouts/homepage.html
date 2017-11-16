@@ -1,5 +1,8 @@
 ---
 layout: page
+image_sliders:
+  - Post_Slider
+image_sliders_load_all: true
 ---
 
 <div>
@@ -21,8 +24,8 @@ layout: page
 
   	<br>
 
-  	<!-- Latest Stories: -->
- 	<section id="stories">
-  		{% include posts-recent.html %}
-	</section>
+    <!-- Latest Stories Slider: -->
+  <section id="stories">
+      {% include slider.html selector="Post_Slider" %}
+  </section>
 </div>
