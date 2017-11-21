@@ -23,6 +23,10 @@
 @font-face { font-family: Sketch; src: url('css/font/SketchSerif.otf'); }
 
 
+body {
+  margin: 0;
+}
+
 // =====================================
 // Style For NavBar
 // =====================================
@@ -93,6 +97,7 @@ nav.primary ul {
   font-size: 19px;
   background-color: rgb(229, 59, 81);
   display: block;
+  // position: fixed;
   span {
     font-size: 20px;
     color: #fff;
